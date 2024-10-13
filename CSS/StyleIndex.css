@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(255, 237, 214);
+    background-image: url(../Images/Backgrund.jpg);
+    background-position: center;
+    
+
+   }
+
+
+   header{
+    background-color: rgb(247, 192, 129);
+    
+   }
+
+   nav ul{
+    margin: 0px;
+    padding: 0px;
+   }
+
+   nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 1.5em 0 1.5em;
+   }
+
+   footer{
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    padding: 15px; 
+    background-color: rgb(247, 192, 129);
+    text-align: center;
+   }
+
+
+   
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;  /* Centrerar boxarna horisontellt */
+    align-items: center;            /* Centrerar boxarna vertikalt */
+    height: 70vh;                   /* Täcker hela sidans höjd */
+}
+
+.box {
+    flex: 1 1 35%;                  /* Gör att varje box tar upp 35% av utrymmet med flexibel bredd */
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(245, 201, 152, 0.7);
+    text-align: center;
+    border-radius: 15px;   
+}
+
+
+
+.text {
+    margin-left: 20px;           /* Avstånd mellan bild och text */
+}
+
+
+
+
+
+
+  
+

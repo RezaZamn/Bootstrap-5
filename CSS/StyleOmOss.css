@@ -1,0 +1,113 @@
+body{
+    background-color: rgb(255, 237, 214);
+    background-image: url(../Images/Backgrund.jpg);
+    background-position: center;
+    
+
+   }
+
+
+   header{
+    background-color: rgb(247, 192, 129);
+    
+   }
+
+   nav ul{
+    margin: 0px;
+    padding: 0px;
+   }
+
+   nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 1.5em 0 1.5em;
+   }
+
+   footer{
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    padding: 15px; 
+    background-color: rgb(247, 192, 129);
+    text-align: center;
+   }
+
+
+
+/* Styles for the Om Oss section */
+.about-section {
+    background-color: #fce1c0;      
+    color: #333;
+    padding: 60px 0;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.about-section h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #482407;
+}
+
+.about-section p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;       /* Centers the text */
+    line-height: 1.6;
+    color: #482407;
+}
+
+
+
+/* Styles for the Our Team section */
+.team-section {
+    color: rgb(242, 187, 116);
+    padding: 60px 0;
+    text-align: center;    
+    
+}
+
+.team-card {
+    background-color: rgb(248, 224, 189);
+    color: #5c370e;
+    border: none;
+    padding: 20px;
+    border-radius: 8px;
+    opacity: 0.9;
+    
+}
+
+.team-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    
+}
+
+.team-card h5 {
+    font-weight: bold;
+    margin: 10px 0 5px;
+  
+}
+
+.team-card p {
+    font-size: 14px;
+    margin-bottom: 0;
+    color: #482407;
+}
+
+.contact-info {
+    color: #5c370e;        
+}
+
+.custom-title {
+    color: #482407;
+    font-weight: bold;
+   
+}
+
+
