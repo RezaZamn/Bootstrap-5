@@ -79,5 +79,21 @@
     }
 
 
+    .responsive-container {
+        display: flex;
+        flex-direction: column; /* Vertikal layout på små skärmar */
+        gap: 20px;
+        padding: 20px;
+    }
+    
+    
+    /* Ändrar layouten till horisontell för större skärmar */
+    @media (min-width: 768px) {
+        .responsive-container {
+            flex-direction: row; /* Horisontell layout på större skärmar */
+        }
+    }
+
+
 
 
