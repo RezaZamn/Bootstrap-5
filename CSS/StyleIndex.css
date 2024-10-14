@@ -1,8 +1,7 @@
 body{
     background-color: rgb(255, 237, 214);
     background-image: url(../Images/Backgrund.jpg);
-    background-position: center;
-    
+    background-position: center; 
 
    }
 
@@ -24,7 +23,7 @@ body{
    }
 
    footer{
-    position: fixed;
+    position:fixed;
     bottom: 10px;
     left: 0;
     width: 100%;
@@ -41,7 +40,7 @@ body{
     flex-wrap: wrap;
     justify-content:space-between;  /* Centrerar boxarna horisontellt */
     align-items: center;            /* Centrerar boxarna vertikalt */
-    height: 70vh;                   /* Täcker hela sidans höjd */
+    height: 100vh;                  /* Täcker hela sidans höjd */
 }
 
 .box {
@@ -54,9 +53,24 @@ body{
 }
 
 
-
 .text {
     margin-left: 20px;           /* Avstånd mellan bild och text */
+}
+
+
+.responsive-container {
+    display: flex;
+    flex-direction: column; /* Vertikal layout på små skärmar */
+    gap: 20px;
+    padding: 20px;
+}
+
+
+/* Ändrar layouten till horisontell för större skärmar */
+@media (min-width: 768px) {
+    .responsive-container {
+        flex-direction: row; /* Horisontell layout på större skärmar */
+    }
 }
 
 
